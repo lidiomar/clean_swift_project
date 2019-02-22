@@ -1,0 +1,432 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DriverStandingsDisplayLogic"
+- "DriverStandingsViewController"
+provides-nominal:
+- "9f1Project27DriverStandingsDisplayLogicP"
+- "9f1Project29DriverStandingsViewControllerC"
+provides-member:
+- ["9f1Project27DriverStandingsDisplayLogicP", ""]
+- ["9f1Project29DriverStandingsViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewWillAppear"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "Bundle"
+- !private "DriverStandings"
+- "DriverStandingsBusinessLogic"
+- "DriverStandingsDisplayLogic"
+- !private "DriverStandingsInteractor"
+- "DriverStandingsViewController"
+- "NSCoder"
+- "String"
+- !private "StringLiteralType"
+- "UITableViewController"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "DriverStandings"]
+- !private ["s7CVarArgP", "DriverStandingsInteractor"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "displayDriverStandings"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interactor"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DriverStandings"]
+- !private ["s28CustomDebugStringConvertibleP", "DriverStandingsInteractor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "displayDriverStandings"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interactor"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DriverStandings"]
+- !private ["s23CustomStringConvertibleP", "DriverStandingsInteractor"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "displayDriverStandings"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interactor"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["9f1Project15DriverStandingsO", "FetchDriverStandings"]
+- !private ["9f1Project28DriverStandingsBusinessLogicP", "fetchDriverStandings"]
+- !private ["9f1Project28DriverStandingsBusinessLogicP", "init"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "DriverStandings"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "DriverStandingsInteractor"]
+- ["9f1Project27DriverStandingsDisplayLogicP", ""]
+- ["9f1Project27DriverStandingsDisplayLogicP", "displayDriverStandings"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "fetch"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "interactor"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "setup"]
+- !private ["9f1Project25DriverStandingsInteractorC", "deinit"]
+- !private ["9f1Project25DriverStandingsInteractorC", "init"]
+- ["9f1Project29DriverStandingsViewControllerC", "Bool"]
+- ["9f1Project29DriverStandingsViewControllerC", "Bundle"]
+- !private ["9f1Project29DriverStandingsViewControllerC", "DriverStandings"]
+- ["9f1Project29DriverStandingsViewControllerC", "DriverStandingsBusinessLogic"]
+- !private ["9f1Project29DriverStandingsViewControllerC", "DriverStandingsInteractor"]
+- ["9f1Project29DriverStandingsViewControllerC", "NSCoder"]
+- ["9f1Project29DriverStandingsViewControllerC", "String"]
+- ["9f1Project29DriverStandingsViewControllerC", "deinit"]
+- ["9f1Project29DriverStandingsViewControllerC", "displayDriverStandings"]
+- ["9f1Project29DriverStandingsViewControllerC", "fetch"]
+- ["9f1Project29DriverStandingsViewControllerC", "init"]
+- ["9f1Project29DriverStandingsViewControllerC", "interactor"]
+- ["9f1Project29DriverStandingsViewControllerC", "setup"]
+- ["9f1Project29DriverStandingsViewControllerC", "viewWillAppear"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "DriverStandings"]
+- !private ["SQ", "DriverStandingsInteractor"]
+- ["SQ", ""]
+- ["SQ", "displayDriverStandings"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interactor"]
+- !private ["SQ", "setup"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9f1Project15DriverStandingsO05FetchcD0O", "Request"]
+- !private ["SH", "DriverStandings"]
+- !private ["SH", "DriverStandingsInteractor"]
+- ["SH", ""]
+- ["SH", "displayDriverStandings"]
+- !private ["SH", "fetch"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "interactor"]
+- !private ["SH", "setup"]
+- !private ["SH", "viewWillAppear"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DriverStandings"]
+- !private ["So8NSCodingP", "DriverStandingsInteractor"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "displayDriverStandings"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "interactor"]
+- !private ["So8NSCodingP", "setup"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "DriverStandings"]
+- !private ["So26NSExtensionRequestHandlingP", "DriverStandingsInteractor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "displayDriverStandings"]
+- !private ["So26NSExtensionRequestHandlingP", "fetch"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "interactor"]
+- !private ["So26NSExtensionRequestHandlingP", "setup"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "DriverStandings"]
+- ["So8NSObjectC", "DriverStandingsBusinessLogic"]
+- !private ["So8NSObjectC", "DriverStandingsInteractor"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "displayDriverStandings"]
+- ["So8NSObjectC", "fetch"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interactor"]
+- ["So8NSObjectC", "setup"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectP", "DriverStandings"]
+- !private ["So8NSObjectP", "DriverStandingsInteractor"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "displayDriverStandings"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "interactor"]
+- !private ["So8NSObjectP", "setup"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["9f1Project15DriverStandingsO05FetchcD0O7RequestV", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "DriverStandings"]
+- !private ["So21UIAppearanceContainerP", "DriverStandingsInteractor"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "displayDriverStandings"]
+- !private ["So21UIAppearanceContainerP", "fetch"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "interactor"]
+- !private ["So21UIAppearanceContainerP", "setup"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "DriverStandings"]
+- !private ["So18UIContentContainerP", "DriverStandingsInteractor"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "displayDriverStandings"]
+- !private ["So18UIContentContainerP", "fetch"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "interactor"]
+- !private ["So18UIContentContainerP", "setup"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "DriverStandings"]
+- !private ["So18UIFocusEnvironmentP", "DriverStandingsInteractor"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "displayDriverStandings"]
+- !private ["So18UIFocusEnvironmentP", "fetch"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "interactor"]
+- !private ["So18UIFocusEnvironmentP", "setup"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "DriverStandings"]
+- !private ["So30UIPasteConfigurationSupportingP", "DriverStandingsInteractor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "displayDriverStandings"]
+- !private ["So30UIPasteConfigurationSupportingP", "fetch"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "interactor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setup"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "DriverStandings"]
+- ["So11UIResponderC", "DriverStandingsBusinessLogic"]
+- !private ["So11UIResponderC", "DriverStandingsInteractor"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "displayDriverStandings"]
+- ["So11UIResponderC", "fetch"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "interactor"]
+- ["So11UIResponderC", "setup"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "DriverStandings"]
+- !private ["So30UIResponderStandardEditActionsP", "DriverStandingsInteractor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "displayDriverStandings"]
+- !private ["So30UIResponderStandardEditActionsP", "fetch"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "interactor"]
+- !private ["So30UIResponderStandardEditActionsP", "setup"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So20UIScrollViewDelegateP", "DriverStandings"]
+- !private ["So20UIScrollViewDelegateP", "DriverStandingsInteractor"]
+- ["So20UIScrollViewDelegateP", ""]
+- ["So20UIScrollViewDelegateP", "displayDriverStandings"]
+- !private ["So20UIScrollViewDelegateP", "fetch"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "interactor"]
+- !private ["So20UIScrollViewDelegateP", "setup"]
+- !private ["So20UIScrollViewDelegateP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "DriverStandings"]
+- !private ["So16UIStateRestoringP", "DriverStandingsInteractor"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "displayDriverStandings"]
+- !private ["So16UIStateRestoringP", "fetch"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "interactor"]
+- !private ["So16UIStateRestoringP", "setup"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So21UITableViewControllerC", "Bool"]
+- ["So21UITableViewControllerC", "Bundle"]
+- !private ["So21UITableViewControllerC", "DriverStandings"]
+- ["So21UITableViewControllerC", "DriverStandingsBusinessLogic"]
+- !private ["So21UITableViewControllerC", "DriverStandingsInteractor"]
+- ["So21UITableViewControllerC", "NSCoder"]
+- ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "displayDriverStandings"]
+- ["So21UITableViewControllerC", "fetch"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "interactor"]
+- ["So21UITableViewControllerC", "setup"]
+- ["So21UITableViewControllerC", "viewWillAppear"]
+- !private ["So21UITableViewDataSourceP", "DriverStandings"]
+- !private ["So21UITableViewDataSourceP", "DriverStandingsInteractor"]
+- ["So21UITableViewDataSourceP", ""]
+- ["So21UITableViewDataSourceP", "displayDriverStandings"]
+- !private ["So21UITableViewDataSourceP", "fetch"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "interactor"]
+- !private ["So21UITableViewDataSourceP", "setup"]
+- !private ["So21UITableViewDataSourceP", "viewWillAppear"]
+- !private ["So19UITableViewDelegateP", "DriverStandings"]
+- !private ["So19UITableViewDelegateP", "DriverStandingsInteractor"]
+- ["So19UITableViewDelegateP", ""]
+- ["So19UITableViewDelegateP", "displayDriverStandings"]
+- !private ["So19UITableViewDelegateP", "fetch"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "interactor"]
+- !private ["So19UITableViewDelegateP", "setup"]
+- !private ["So19UITableViewDelegateP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "DriverStandings"]
+- !private ["So18UITraitEnvironmentP", "DriverStandingsInteractor"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "displayDriverStandings"]
+- !private ["So18UITraitEnvironmentP", "fetch"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "interactor"]
+- !private ["So18UITraitEnvironmentP", "setup"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "DriverStandings"]
+- !private ["So23UIUserActivityRestoringP", "DriverStandingsInteractor"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "displayDriverStandings"]
+- !private ["So23UIUserActivityRestoringP", "fetch"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "interactor"]
+- !private ["So23UIUserActivityRestoringP", "setup"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "Bundle"]
+- !private ["So16UIViewControllerC", "DriverStandings"]
+- ["So16UIViewControllerC", "DriverStandingsBusinessLogic"]
+- !private ["So16UIViewControllerC", "DriverStandingsInteractor"]
+- ["So16UIViewControllerC", "NSCoder"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "displayDriverStandings"]
+- ["So16UIViewControllerC", "fetch"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "interactor"]
+- ["So16UIViewControllerC", "setup"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DriverStandings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DriverStandingsInteractor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayDriverStandings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9f1Project15DriverStandingsO"
+- !private "9f1Project28DriverStandingsBusinessLogicP"
+- "9f1Project27DriverStandingsDisplayLogicP"
+- !private "9f1Project25DriverStandingsInteractorC"
+- "9f1Project29DriverStandingsViewControllerC"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9f1Project15DriverStandingsO05FetchcD0O"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sm"
+- !private "9f1Project15DriverStandingsO05FetchcD0O7RequestV"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3513bd1592a6d14b9c85943fb25853da"

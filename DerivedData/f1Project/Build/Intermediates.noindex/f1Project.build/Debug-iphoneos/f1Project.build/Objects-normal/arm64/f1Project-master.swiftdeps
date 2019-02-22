@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a56f095864d96ae9fee9d5a115a503dd"
+build_time: [1550864895, 487931000]
+inputs:
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/StandingsTable.swift": [1550841207, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/StandingsList.swift": [1550841474, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Scenes/DriverStandings/DriverStandingsPresenter.swift": [1550864877, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/DriverPresentation.swift": [1550862213, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/Driver.swift": [1550779770, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/DriverStanding.swift": [1550841287, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Scenes/DriverStandings/DriverStandingsInteractor.swift": [1550864892, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Scenes/DriverStandings/DriverStandingsViewController.swift": [1550864175, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/MRData.swift": [1550841137, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Scenes/DriverStandings/DriverStandingsModels.swift": [1550863753, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/AppDelegate.swift": [1550772210, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Workers/DriverStandingsWorker.swift": [1550861422, 0]
+  "/Users/lidiomarfernandomachado/dev/swift/f1Project/f1Project/Models/BaseObject.swift": [1550841091, 0]

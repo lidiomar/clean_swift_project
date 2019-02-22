@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DriverStandingsPresentationLogic"
+- "DriverStandingsPresenter"
+provides-nominal:
+- "9f1Project32DriverStandingsPresentationLogicP"
+- "9f1Project24DriverStandingsPresenterC"
+provides-member:
+- ["9f1Project32DriverStandingsPresentationLogicP", ""]
+- ["9f1Project24DriverStandingsPresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "DriverPresentation"
+- "DriverStandings"
+- "DriverStandingsDisplayLogic"
+- "DriverStandingsPresentationLogic"
+- "DriverStandingsPresenter"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "Driver"]
+- !private ["Se", "append"]
+- !private ["Se", "familyName"]
+- !private ["Se", "givenName"]
+- !private ["Se", "init"]
+- !private ["Se", "positionText"]
+- !private ["9f1Project6DriverV", "familyName"]
+- !private ["9f1Project6DriverV", "givenName"]
+- !private ["9f1Project18DriverPresentationV", "familyName"]
+- !private ["9f1Project18DriverPresentationV", "givenName"]
+- !private ["9f1Project18DriverPresentationV", "init"]
+- !private ["9f1Project18DriverPresentationV", "positionText"]
+- !private ["9f1Project14DriverStandingV", "Driver"]
+- !private ["9f1Project14DriverStandingV", "positionText"]
+- ["9f1Project15DriverStandingsO", "FetchDriverStandings"]
+- !private ["9f1Project27DriverStandingsDisplayLogicP", "displayDriverStandings"]
+- !private ["9f1Project32DriverStandingsPresentationLogicP", "DriverPresentation"]
+- ["9f1Project32DriverStandingsPresentationLogicP", "DriverStandings"]
+- ["9f1Project32DriverStandingsPresentationLogicP", ""]
+- ["9f1Project32DriverStandingsPresentationLogicP", "presentFetchedDriverStanding"]
+- !private ["9f1Project32DriverStandingsPresentationLogicP", "viewController"]
+- !private ["9f1Project24DriverStandingsPresenterC", "DriverPresentation"]
+- ["9f1Project24DriverStandingsPresenterC", "DriverStandings"]
+- ["9f1Project24DriverStandingsPresenterC", "DriverStandingsDisplayLogic"]
+- ["9f1Project24DriverStandingsPresenterC", "deinit"]
+- ["9f1Project24DriverStandingsPresenterC", "init"]
+- ["9f1Project24DriverStandingsPresenterC", "presentFetchedDriverStanding"]
+- ["9f1Project24DriverStandingsPresenterC", "viewController"]
+- !private ["SE", "Driver"]
+- !private ["SE", "append"]
+- !private ["SE", "familyName"]
+- !private ["SE", "givenName"]
+- !private ["SE", "init"]
+- !private ["SE", "positionText"]
+- !private ["SQ", "append"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["9f1Project15DriverStandingsO05FetchcD0O", "Response"]
+- !private ["9f1Project15DriverStandingsO05FetchcD0O", "ViewModel"]
+- !private ["SH", "append"]
+- !private ["SH", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["9f1Project15DriverStandingsO05FetchcD0O8ResponseV", "driverStandings"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["9f1Project15DriverStandingsO05FetchcD0O9ViewModelV", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9f1Project6DriverV"
+- !private "9f1Project18DriverPresentationV"
+- !private "9f1Project14DriverStandingV"
+- "9f1Project15DriverStandingsO"
+- !private "9f1Project27DriverStandingsDisplayLogicP"
+- "9f1Project32DriverStandingsPresentationLogicP"
+- "9f1Project24DriverStandingsPresenterC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "9f1Project15DriverStandingsO05FetchcD0O"
+- !private "SH"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "9f1Project15DriverStandingsO05FetchcD0O8ResponseV"
+- !private "ST"
+- !private "9f1Project15DriverStandingsO05FetchcD0O9ViewModelV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5e3d5524db6f4501181a20d68ce8e22d"
