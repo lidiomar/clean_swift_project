@@ -16,14 +16,13 @@ protocol DriverStandingsDisplayLogic: class {
 class DriverStandingsViewController: UITableViewController, DriverStandingsDisplayLogic {
     
     var interactor: DriverStandingsBusinessLogic?
+   
+    @IBOutlet var tableViewStandings: UITableView!
+    var driverStandings: [DriverPresentation] = []
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        setup()
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    override func viewDidLoad() {
+        tableViewStandings.delegate = self
+        tableViewStandings.dataSource = self
         setup()
     }
     
@@ -38,12 +37,21 @@ class DriverStandingsViewController: UITableViewController, DriverStandingsDispl
     }
     
     func displayDriverStandings(viewModel: DriverStandings.FetchDriverStandings.ViewModel) {
-        let driverStandings = viewModel.displayedDriverStanding
-        for driverStanding in driverStandings {
-            print(driverStanding.familyName ?? "family" + "\n")
-            print(driverStanding.givenName ?? "givenName" + "\n")
-            print(driverStanding.positionText ?? "positionText" + "\n")
+        driverStandings = viewModel.displayedDriverStanding
+        DispatchQueue.main.async {
+            self.tableViewStandings.reloadData()
         }
+    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+         return driverStandings.count  
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+
+        cell.textLabel?.text = driverStandings[indexPath.row].familyName
+        
+        return cell
     }
     
     func setup() {
@@ -55,7 +63,5 @@ class DriverStandingsViewController: UITableViewController, DriverStandingsDispl
         presenter.viewController = viewController
         
         viewController.interactor = interactor
-        
-        
     }
 }
